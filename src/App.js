@@ -11,22 +11,16 @@ import {
 const SocialLinksPage = () => {
   const links = [
     {
+      name: 'WhatsApp',
+      url: 'https://wa.me/972552274663',
+      icon: MessageCircle,
+      gradient: 'from-green-500 to-green-600'
+    },
+    {
       name: 'Instagram',
       url: 'https://www.instagram.com/asaf_magen1/',
       icon: Instagram,
       gradient: 'from-purple-400 via-pink-500 to-orange-500'
-    },
-    {
-      name: 'X (Twitter)',
-      url: 'https://x.com/asafmagen1',
-      icon: TwitterIcon,
-      gradient: 'from-gray-700 to-gray-900'
-    },
-    {
-      name: 'Facebook',
-      url: 'https://www.facebook.com/profile.php?id=100003754281846',
-      icon: Facebook,
-      gradient: 'from-blue-600 to-blue-700'
     },
     {
       name: 'LinkedIn',
@@ -35,10 +29,16 @@ const SocialLinksPage = () => {
       gradient: 'from-blue-700 to-blue-800'
     },
     {
-      name: 'WhatsApp',
-      url: 'https://wa.me/972552274663',
-      icon: MessageCircle,
-      gradient: 'from-green-500 to-green-600'
+      name: 'Facebook',
+      url: 'https://www.facebook.com/profile.php?id=100003754281846',
+      icon: Facebook,
+      gradient: 'from-blue-600 to-blue-700'
+    },
+    {
+      name: 'X (Twitter)',
+      url: 'https://x.com/asafmagen1',
+      icon: TwitterIcon,
+      gradient: 'from-gray-700 to-gray-900'
     }
   ];
 
@@ -62,6 +62,9 @@ const SocialLinksPage = () => {
         <h1 className="text-4xl font-bold bg-gradient-to-r from-violet-600 to-pink-600 bg-clip-text text-transparent mb-3">
           Asaf Magen
         </h1>
+        <p className="text-lg text-gray-600 max-w-md mx-auto font-medium">
+          יזם טכנולוגי | מפתח תוכנה | מוביל חדשנות דיגיטלית
+        </p>
       </div>
 
       {/* Links Section */}
