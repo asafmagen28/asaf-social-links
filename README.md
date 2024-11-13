@@ -2,7 +2,6 @@
 
 A modern, elegant social media hub that centralizes all my professional and social media presence in one beautiful, responsive interface.
 
-![Social Links Hub Preview](public/images/profile.jpeg)
 
 ## ✨ Features
 
