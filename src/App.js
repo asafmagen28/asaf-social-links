@@ -5,7 +5,6 @@ import {
   Linkedin,
   Mail,
   MessageCircle,
-  Phone,
   TwitterIcon
 } from 'lucide-react';
 
