@@ -60,7 +60,7 @@ const SocialLinksPage = () => {
           </div>
         </div>
         <h1 className="text-4xl font-bold bg-gradient-to-r from-violet-600 to-pink-600 bg-clip-text text-transparent mb-3">
-          Asaf Magen
+          Asaf Shimon Magen
         </h1>
         <p className="text-lg text-gray-600 max-w-md mx-auto font-medium">
           יזם טכנולוגי | מפתח תוכנה | מוביל חדשנות דיגיטלית
